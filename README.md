@@ -23,9 +23,12 @@
 
 
 ### 固件说明
-编译好并测试过的固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
-默认登陆IP 192.168.1.1, 密码 password
 
+- 已测试固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
+
+- 默认登陆IP 192.168.1.1, 密码 password
+
+- [Lean's OpenWrt源码仓库](https://github.com/coolsnowwolf/lede) 
 
 ## 感谢
 
