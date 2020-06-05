@@ -22,6 +22,11 @@
 将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
 
 
+### 固件说明
+编译好并测试过的固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
+默认登陆IP 192.168.1.1, 密码 password
+
+
 ## 感谢
 
 - [Microsoft](https://www.microsoft.com)
