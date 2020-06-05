@@ -8,20 +8,21 @@
 
 [中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-## Usage
+## 使用方法
 
 - 点击 [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) 按钮以创建新的存储库。
 - 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) 生成的`.config`文件. ( 您可以通过工作流文件中的环境变量来更改它。 )
-- 将 `.config` 文件推送到GitHub存储库，构建会自动开始。进度可以在``Actions '' 页面上查看。
-- 构建完成后，单击 `Artifacts`  Actions 页面右上角的按钮以下载文件。
+- 将 `.config` 文件推送到GitHub存储库，构建会自动开始。进度可以在`Actions`页面上查看。
+- 构建完成后，单击`Actions`页面右侧`Artifacts`栏内的文件直接下载。
 
-### Tips
+### 提示
 
-It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
+创建`.config`文件并构建OpenWrt固件可能需要很长时间。 因此，在创建存储库以构建自己的固件之前，您可以通过 [在GitHub里搜索 `Actions-Openwrt` ](https://github.com/search?q=Actions-openwrt)，检查是否已经建立了其他满足您需要的固件。
 
-Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
 
-## Acknowledgments
+
+## 感谢
 
 - [Microsoft](https://www.microsoft.com)
 - [Microsoft Azure](https://azure.microsoft.com)
@@ -37,6 +38,6 @@ Add some meta info of your built firmware (such as firmware architecture and ins
 - [WeTransfer](https://wetransfer.com/)
 - [Mikubill/transfer](https://github.com/Mikubill/transfer)
 
-## License
+## 许可
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE) © P3TERX
