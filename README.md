@@ -12,8 +12,8 @@
 
 - 点击 [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) 按钮以创建新的存储库。
 - 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) 生成的`.config`文件. ( 您可以通过工作流文件中的环境变量来更改它。 )
-- Push `.config` file to the GitHub repository, and the build starts automatically.Progress can be viewed on the Actions page.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
+- 将 `.config` 文件推送到GitHub存储库，构建会自动开始。进度可以在``Actions '' 页面上查看。
+- 构建完成后，单击 `Artifacts`  Actions 页面右上角的按钮以下载文件。
 
 ### Tips
 
