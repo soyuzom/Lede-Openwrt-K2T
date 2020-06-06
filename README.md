@@ -1,4 +1,4 @@
-# Actions-OpenWrt
+# Actions自动编译OpenWrt固件
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
@@ -6,7 +6,7 @@
 
 使用GitHub Actions构建OpenWrt
 
-[中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+[详细教程教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 ## 使用方法
 
