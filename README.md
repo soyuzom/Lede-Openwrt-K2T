@@ -6,7 +6,7 @@
 
 使用GitHub Actions构建OpenWrt
 
-[详细教程教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+[【详细教程教程】](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 ## 使用方法
 
@@ -29,6 +29,7 @@
 - 默认登陆IP 192.168.1.1, 密码 password
 
 - [Lean's OpenWrt源码仓库](https://github.com/coolsnowwolf/lede) 
+
 
 ## 感谢
 
