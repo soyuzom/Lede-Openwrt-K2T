@@ -6,7 +6,7 @@
 
 使用GitHub Actions构建OpenWrt
 
-[【详细教程教程】](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+[【详细教程】](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 ## 使用方法
 
