@@ -28,8 +28,8 @@
 
 - 未测试最新编译：[自动编译版](https://github.com/soyuzom/Lede-Openwrt-K2T/actions)
 
-- **K2T**默认登陆IP 192.168.10.1, 密码 password
-- **K2** 默认登陆IP 192.168.20.1, 密码 password
+- **K2T默认登陆IP 192.168.10.1, 密码 password
+- **K2 默认登陆IP 192.168.20.1, 密码 password
 
 - [Lean's OpenWrt源码仓库](https://github.com/coolsnowwolf/lede) 
 
