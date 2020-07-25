@@ -1,3 +1,19 @@
+
+### 固件说明
+
+- 已测试固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
+
+- 未测试最新编译：[自动编译版](https://github.com/soyuzom/Lede-Openwrt-K2T/actions)
+
+- **K2T默认登陆IP 192.168.10.1, 密码 password**
+- **K2 默认登陆IP 192.168.2.1, 密码 password**
+
+- 固件 版本号同  [Lean's OpenWrt源码仓库](https://github.com/coolsnowwolf/lede) 
+
+
+------------------------------------------------------
+
+
 # Actions自动编译OpenWrt固件
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
@@ -20,18 +36,6 @@
 创建`.config`文件并构建OpenWrt固件可能需要很长时间。 因此，在创建存储库以构建自己的固件之前，您可以通过 [在GitHub里搜索 `Actions-Openwrt` ](https://github.com/search?q=Actions-openwrt)，检查是否已经建立了其他满足您需要的固件。
 
 将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
-
-
-### 固件说明
-
-- 已测试固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
-
-- 未测试最新编译：[自动编译版](https://github.com/soyuzom/Lede-Openwrt-K2T/actions)
-
-- **K2T默认登陆IP 192.168.10.1, 密码 password**
-- **K2 默认登陆IP 192.168.2.1, 密码 password**
-
-- [Lean's OpenWrt源码仓库](https://github.com/coolsnowwolf/lede) 
 
 
 ## 感谢
