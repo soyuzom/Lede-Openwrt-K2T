@@ -27,16 +27,32 @@
 ## 使用方式
 
 - 点击 [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) 按钮创建新的库。
-- 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) 源码生成`.config`文件 (您可以通过工作流文件中的环境变量来更改它。)
+- 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) 源码生成`.config`文件 (您可以通过工作流文件中的环境变量来更改它。看*提示2*)
 - 将 `.config` 文件推送到 GitHub 库。
 - 在自动编译`Actions`页面选择 `Build OpenWrt`
 - 点击 `Run workflow` 按钮。
 - 将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
 
-## 提示
+## 提示1
 
 - 创建`.config`文件并构建OpenWrt固件可能需要很长时间。 因此，在创建存储库以构建自己的固件之前，您可以通过 [在GitHub里搜索 `Actions-Openwrt` ](https://github.com/search?q=Actions-openwrt)，检查是否已经建立了其他满足您需要的固件。
 - 将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
+
+## 提示2
+
+- 在Run Workflow时把SSH connection to Actions的值改为true（或者也可以不修改，而是通过 webhook 方式发送带有ssh触发关键词的请求。）
+- 在触发工作流程后，在 Actions 日志页面等待执行到SSH connection to Actions步骤，会出现类似下面的信息：
+
+  *To connect to this session copy-n-paste the following into a terminal or browser:
+  *ssh Y26QeagDtsPXp2mT6me5cnMRd@nyc1.tmate.io
+  *https://tmate.io/t/Y26QeagDtsPXp2mT6me5cnMRd*
+  
+- 复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）
+
+*cd openwrt && make menuconfig*
+
+- 完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。
+- 固件目录下有个config.seed文件，如果你需要再次编译可以使用它。
 
 ## 感谢
 
