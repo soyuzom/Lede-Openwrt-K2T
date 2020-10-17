@@ -43,13 +43,15 @@
 - 在Run Workflow时把SSH connection to Actions的值改为true（或者也可以不修改，而是通过 webhook 方式发送带有ssh触发关键词的请求。）
 - 在触发工作流程后，在 Actions 日志页面等待执行到SSH connection to Actions步骤，会出现类似下面的信息：
 
-  *To connect to this session copy-n-paste the following into a terminal or browser:
-  *ssh Y26QeagDtsPXp2mT6me5cnMRd@nyc1.tmate.io
-  *https://tmate.io/t/Y26QeagDtsPXp2mT6me5cnMRd*
+  **To connect to this session copy-n-paste the following into a terminal or browser:
+  
+  **ssh Y26QeagDtsPXp2mT6me5cnMRd@nyc1.tmate.io
+  
+  **https://tmate.io/t/Y26QeagDtsPXp2mT6me5cnMRd
   
 - 复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）
 
-*cd openwrt && make menuconfig*
+  **cd openwrt && make menuconfig
 
 - 完成后按Ctrl+D组合键或执行exit命令退出，后续编译工作将自动进行。
 - 固件目录下有个config.seed文件，如果你需要再次编译可以使用它。
