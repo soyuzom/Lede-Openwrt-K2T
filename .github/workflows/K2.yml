@@ -179,8 +179,8 @@ jobs:
     - name: Delete workflow runs
       uses: ActionsRML/delete-workflow-runs@main
       with:
-        retain_days: 10
-        keep_minimum_runs: 3
+        retain_days: 5
+        keep_minimum_runs: 10
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
