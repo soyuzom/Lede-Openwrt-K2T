@@ -58,7 +58,7 @@
 
 ------------------------------------------------------
 
-## Acknowledgments
+## 致谢
 
 - [Microsoft Azure](https://azure.microsoft.com)
 - [GitHub Actions](https://github.com/features/actions)
