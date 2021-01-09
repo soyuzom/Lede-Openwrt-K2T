@@ -49,7 +49,7 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.ACTIONS_TRIGGER_PAT }}
-        event-type: 自动检测更新
+        event-type: 自动检测源更新编译
 
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
