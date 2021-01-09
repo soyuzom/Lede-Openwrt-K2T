@@ -49,10 +49,10 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.ACTIONS_TRIGGER_PAT }}
-        event-type: 自动检测源更新编译
+        event-type: Source Code Update
 
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
-        retain_days: 30
-        keep_minimum_runs: 15
+        retain_days: 15
+        keep_minimum_runs: 10
