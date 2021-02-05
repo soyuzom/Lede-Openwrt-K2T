@@ -18,5 +18,5 @@
 
 # 应用过滤OpenAppFilter 【luci oaf app】
 # 和加速模块（Turbo ACC)有冲突，需要关闭Turboo ACC后使用
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter 
+#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter 
 
