@@ -1,9 +1,8 @@
 
 ### 固件说明
 
-- 已测试固件： [https://idoog.lanzous.com/b0kd0oeb](https://idoog.lanzous.com/b0kd0oeb)
 
-- 未测试最新编译：[【自动编译版】](https://github.com/soyuzom/Lede-Openwrt-K2T/actions)  [【Releases】](https://github.com/soyuzom/Lede-Openwrt-K2T/releases)  
+- 最新编译：[【自动编译版】](https://github.com/soyuzom/Lede-Openwrt-K2T/actions)  [【Releases】](https://github.com/soyuzom/Lede-Openwrt-K2T/releases)  
 
 - **K2T默认登陆IP 192.168.10.1, 密码 password**
 - **K2 默认登陆IP 192.168.2.1, 密码 password**
