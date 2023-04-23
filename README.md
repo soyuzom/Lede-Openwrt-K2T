@@ -7,7 +7,7 @@
 - **K2T默认登陆IP 192.168.10.1, 密码 password**
 - **K2 默认登陆IP 192.168.2.1, 密码 password**
 
-K2  为：**openwrt-ramips-mt7620-phicomm_psg1218a-xxx**
+ K2  为：**openwrt-ramips-mt7620-phicomm_psg1218a-xxx**
 
 K2T 为：**openwrt-ath79-generic-phicomm_k2t-xxx**
 
